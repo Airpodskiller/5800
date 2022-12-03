@@ -1,4 +1,4 @@
-# <center> Synthesis Assignment #2 </center>
+# <center> ::: warning ::: </center>
 
 
 
@@ -957,6 +957,19 @@ is true after the assignment of the given literals. The graph can be constructed
 Therefore, the Independent Set Problem is NP - Complete.
 
 ### 9.4 Getting around NP - Completeness
+In addition to NP - Completeness, there are problems that are the same hard as NP - Compeleteness problems (even harder). They are called NP - Hard. The definition of a NP - Hard problem is that a NP - Complete problem can be reduced to it in polynomial time. If it is a NP - Hard problem, it should also belong to NP - Completeness. Here's a diagram of the relationship among P, NP, NP - Compeleteness, NP - Hard:
+
+<div align = center>
+  <img src = IMG/NPHard.png>
+</div>
+
+In the end, why do we need to dig into the NP - Completeness? The answer is simple. If we find a polynomial solution to a NP - Completeness problem, all NP prolems can be solved in polynomial time according to the relationship between them.
+
+
+
+
+
+
 
 
 
