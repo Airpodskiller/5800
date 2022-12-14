@@ -45,13 +45,11 @@ In this case, the order of implementing DFS on the graph should be : I, G, J, F,
 
 ### (b)
 
-
 By definition vertex with indegree 0 is called source and vertex with outdegree 0 is called sink.
 
 Therefore, the sink SSCs are : {C,D,F,J},{H,I,G}
 
 And the source SSCs are : {B}, {E}
-
 
 ### (c)
 
@@ -175,7 +173,6 @@ But, if we remove one random single edge from the graph, it would not be strongl
 
 (b)
 Consider the given graph below: Since it's a cycle, it's always strongly conncected.
-
 
 (c)
 If we want to make sure that adding one edge to the un-directed graph wouldn’t make the graph a strongly connected graph, we have to ensure that the two strongly connected components in the graph are disjointed, which means there are no edges between them. Next, if we add one edge between the two connected components, obviously it can not make the graph strongly connected since only nodes in one component can traverse all nodes in the graph. Here’s an example for it:
